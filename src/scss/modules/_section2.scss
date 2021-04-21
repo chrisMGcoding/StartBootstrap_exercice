@@ -1,0 +1,17 @@
+.second {
+    .second_up {
+        display: flex;
+        justify-content: center;
+        .second_up_contact {
+            width: 20%;
+            background-color: $button;
+            color: white;
+            text-align: center;
+            .numero {
+                background-color: lightgrey;
+                margin-right: 20px;
+                margin-left: 20px;
+            }
+        }
+    }
+}

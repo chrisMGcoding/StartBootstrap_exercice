@@ -1,0 +1,33 @@
+header {
+    background-color: $header;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .header_title {
+        display: flex;
+        justify-content: center;
+        border-bottom: solid lightgray 1px;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding-bottom: 25px;
+        font-style: italic;
+        font-family: 'Dancing Script', cursive;
+        font-size: 45px;
+    }
+    .header_navbar {
+        display: flex;
+        justify-content: center;
+        ul {
+            list-style-type: none;
+            li {
+                display: inline;
+                padding: 40px;
+                a {
+                    text-decoration: none;
+                    color: black
+                }
+            }
+        }
+    }
+}
