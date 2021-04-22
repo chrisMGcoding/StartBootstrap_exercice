@@ -1,0 +1,36 @@
+.third {
+    height: 735px;
+    background-image: url('../../../public/img/book-bg.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    .third_text>h3 {
+        color: white;
+    }
+    .third_reservation {
+        display: flex;
+    }
+    .third_reservation>.card>.card-body>.third_reservation_forms {
+        display: flex;
+        flex-wrap: wrap;
+        .dropdown {
+            width: 50%;
+            margin-top: 50px;
+        }
+        a {
+            margin-top: 50px;
+            text-decoration: none;
+            background-color: $button;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            color: white;
+            padding-right: 35px;
+            padding-left: 35px;
+
+        }
+    }
+}

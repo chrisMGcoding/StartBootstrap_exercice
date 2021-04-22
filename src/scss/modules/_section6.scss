@@ -1,0 +1,40 @@
+.sixth {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: $cards;
+    .sixth_title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sixth_cards {
+        width: 85%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .card>.row>.col-md-6>img {
+            position: relative;
+        }
+        .card>.row>.col-md-6>p {
+            position: absolute;
+            top: 0%;
+            color: $button;
+            background-color: $prix;
+            font-weight: bold;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .card>.row>.col-md-6:nth-child(2)>.card-body>p:last-child {
+            margin: 0px;
+            a {
+            font-weight: bold;
+            text-decoration: none;
+            color: $button;
+            }
+        }
+    }
+}
+    
