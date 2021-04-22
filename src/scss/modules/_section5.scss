@@ -1,0 +1,45 @@
+.fifth {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    .fifth_title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 135px;
+    }
+    .fifth_cards {
+        display: flex;
+        justify-content: center;
+        .fifth_cards_layout {
+            padding-right: 30px;
+            padding-left: 30px;
+            margin: 15px;
+            height: 535px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            background-color: $cards;
+            h3 {
+                border-bottom: solid 1px lightgrey;
+            }
+            .card>.price>img {
+                position: relative;
+            }
+            .card>.price>p {
+                position: absolute;
+                top: 46%;
+                left: 80%;
+                padding: 10px;
+                padding-right: 15px;
+                padding-left: 15px;
+                background-color: rgba(255,255,255,0.85);
+                color: $button;
+                font-weight: bold;
+            }
+        }
+    }
+}
