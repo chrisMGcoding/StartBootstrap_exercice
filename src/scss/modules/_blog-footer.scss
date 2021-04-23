@@ -1,0 +1,22 @@
+#footer-blog{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 125px;
+    background-color: #303B3F;
+    p{
+        color: white;
+    }
+    #icones-rs{
+        width: 25%;
+        display: flex;
+        justify-content: space-evenly;
+        i{
+            background-color: white;
+            border: 10px solid white;
+            border-radius: 50%;
+            color:#303B3F;
+        }       
+    }
+}
