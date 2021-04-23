@@ -15,7 +15,10 @@
             width: 25%;
             background-color: $button;
             color: white;
-            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             height: 325px;
             h3 {
                 padding-top: 25px;
@@ -28,8 +31,7 @@
             .or {
                 border: 1px black dotted;
                 border-radius: 50px;
-                margin-left: 205px;
-                margin-right: 205px;
+                padding: 5px;
             }
             button {
                 background-color: white;
