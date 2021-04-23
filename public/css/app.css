@@ -18009,4 +18009,117 @@ header .header_navbar ul li a {
   color: #F2745F;
 }
 
+#section-blog-1 {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-image: url(../../../public/img/banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#section-blog-1 h1, #section-blog-1 p {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.cards {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 650px;
+}
+.cards div div {
+  position: relative;
+}
+.cards div div .rectangledansimage {
+  position: absolute;
+  height: 35px;
+  max-width: max-content;
+  background-color: rgba(255, 255, 255, 0.85);
+  z-index: 1;
+}
+.cards div div .rectangledansimage p {
+  color: #ED7117;
+}
+
+#section-blog-6 {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-image: url(../../../public/img/signup-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+#section-blog-6 h3 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#section-blog-6 div {
+  display: flex;
+  justify-content: center;
+}
+
+#footer-blog {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 125px;
+  background-color: #303B3F;
+}
+#footer-blog p {
+  color: white;
+}
+#footer-blog #icones-rs {
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#footer-blog #icones-rs i {
+  background-color: white;
+  border: 10px solid white;
+  border-radius: 50%;
+  color: #303B3F;
+}
+
+.second-menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.second-menu .second-menu_card {
+  background-color: #EAF0FF;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+.second-menu .second-menu_card .second-menu_card-title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: solid 1px lightgray;
+}
+.second-menu .second-menu_card .second-menu_card-card {
+  display: flex;
+}
+.second-menu .second-menu_card .second-menu_card-card .card {
+  margin-right: 1rem;
+}
+.second-menu .second-menu_card .second-menu_card-card .card .image > img {
+  position: relative;
+}
+.second-menu .second-menu_card .second-menu_card-card .card .image > p {
+  position: absolute;
+  left: 11rem;
+  top: 6rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #F2745F;
+  padding: 1%;
+}
+
 /*# sourceMappingURL=app.css.map */
